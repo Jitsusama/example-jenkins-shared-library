@@ -8,7 +8,7 @@ import spock.lang.Specification
  * specification to run within Spock while also having the Jenkins Unit library methods
  * exposed within your specification fixture.
  */
-class JenkinsSpecificationBase extends Specification {
+class SpecificationBase extends Specification {
   @Delegate
   BasePipelineTest basePipelineTest
 
